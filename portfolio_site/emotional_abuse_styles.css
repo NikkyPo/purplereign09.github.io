@@ -1,0 +1,87 @@
+/*Emotional Abuse Page*/
+
+
+
+body {
+    font-family: Lato, sans-serif;
+    margin: 0px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/*Nav Styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: lightseagreen;
+}
+
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+
+.nav-link-wrapper a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+    text-transform: uppercase;
+}
+
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+
+nav-link-wrapper a:hover {
+    color: black;
+}
+
+
+.active-nav-link a {
+    color: black !important;
+}
+
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.profile-image-wrapper img {
+    width: 80%;
+    padding-left: 70px;
+}
+
+
+.profile-content-wrapper {
+    padding: 30px;
+    padding-right: 60px;
+}
+
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+}
